@@ -9,7 +9,6 @@ run: $(TARGET)
 	qemu-arm ./$(TARGET)
 
 format: $(SRCES)
-	$(shell )
 	clangformat.sh -linux $(SRCES)
 
 clean:
